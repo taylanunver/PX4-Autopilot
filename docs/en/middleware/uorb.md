@@ -15,7 +15,7 @@ The [First Application Tutorial (Hello Sky)](../modules/hello_sky.md) provides m
 
 New uORB topics can be added either within the main PX4/PX4-Autopilot repository, or can be added in an [out-of-tree message definition](../advanced/out_of_tree_modules.md#out-of-tree-uorb-message-definitions).
 
-To add new topics, you need to create a new **.msg** "message definition file" named following the CamelCase convention.
+To add new topics, you need to create a new **.msg** "message definition file" named following the PascalCase convention.
 The file should be added to the [msg/](https://github.com/PX4/PX4-Autopilot/tree/main/msg/) directory (or [msg/versioned](https://github.com/PX4/PX4-Autopilot/tree/main/msg/versioned) if it needs to be versioned) and then listed in the `msg/CMakeLists.txt` file.
 
 ::: tip
